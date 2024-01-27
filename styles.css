@@ -74,9 +74,20 @@ body {
   line-height: 30px;
   min-width: 280px;
 }
+.header-row:nth-child(1) {
+  margin-bottom: -20px;
+}
 .header-row > .large-pfp {
   width: 50px;
   border-radius: 0%;
+}
+#theme-toggle {
+  background-color: orange;
+  padding: 10px;
+  width: 50px;
+}
+#theme-toggle:hover {
+  cursor: pointer;
 }
 
 .sidebar {
